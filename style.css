@@ -28,15 +28,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 5vw;
+  padding: 4vh 8vh;
   width: 100%;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 header img {
-  width: 12vw;
-  min-width: 8rem;
-  max-width: 12.5rem;
+  width: 22vh;
+  
 }
 
 nav ul {
@@ -48,7 +47,7 @@ nav ul {
 nav a {
   color: #1e1e1e;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 2vh;
 }
 
 nav a:hover {
@@ -83,27 +82,27 @@ nav a:hover {
 }
 
 .texto h1 {
-  font-size: 3rem;
+  font-size: 7.7vh;
   line-height: 1.2;
   color: #1e1e1e;
 }
 
 .texto p {
-  max-width: 35vw;
-  font-size: 1.1rem;
-  margin-top: 1.5rem;
+  max-width: 37vw;
+  font-size: 2.5vh;
+  margin-top: 3vh;
   color: #1e1e1e;
 }
 
 .button-home {
-  font-size: 1.1rem;
+  font-size: 2.5vh;
   font-weight: 500;
-  margin-top: 2rem;
+  margin-top: 4vh;
   width: 20vw;
-  height: 3.2rem;
+  height: 6vh;
   background-color: #E04444;
   border: none;
-  border-radius: 1rem;
+  border-radius: 2vh;
   color: white;
   cursor: pointer;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.349);
