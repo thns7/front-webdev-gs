@@ -13,7 +13,7 @@
 
 html, body {
   user-select: none;
-  font-size: 1rem; /* Base para rem */
+  font-size: 1rem; 
 }
 
 body {
@@ -77,12 +77,6 @@ section {
   color: #1e1e1e;
 }
 
-.texto-tecnologias p {
-  max-width: 37vw;
-  font-size: 2.5vh;
-  margin-top: 3vh;
-  color: #1e1e1e;
-}
 
 
 .button:hover {
@@ -100,7 +94,7 @@ section {
 }
 
 .row-tech p {
-  font-size: 3vh;
+  font-size: 2.5vh;
   margin-top: 1.5vh;
   color: white;
   max-width: 50vw;
@@ -112,7 +106,7 @@ section {
   font-size: 15vh;
   color: rgb(255, 255, 255);
   margin-left: 5vw;
-  top: 77vh;
+  top: 75vh;
 }
 
 .prototipagem {
@@ -129,7 +123,7 @@ section {
 
 .texto-prototipagem h1 {
   border-radius: 1vw 0 0 1vw;
-  padding: 1vw 23vw 1vw 3vw;
+  padding: 1vw 0 1vw 3vw;
   font-size: 7vh;
 
   color: white;
