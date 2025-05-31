@@ -76,37 +76,29 @@ section {
   line-height: 1.2;
   color: #1e1e1e;
 }
-
-
-
-.button:hover {
-  background-color: #fff;
-  color: #E04444;
-}
-
 .row-tech {
   display: flex;
-  width: 100%;
-  height: 50vh; 
-  background-color: #E04444;
-  
   flex-direction: column;
+  width: 100%;
+  height: 50vh;
+  background-color: #E04444;
+  padding: 0 5vw;
 }
 
 .row-tech p {
   font-size: 2.5vh;
-  margin-top: 1.5vh;
   color: white;
   max-width: 50vw;
-  margin-left: 5vw;
+  margin-top: 3vh;
 }
 
 .row-tech h1 {
-  position: absolute;
   font-size: 15vh;
-  color: rgb(255, 255, 255);
-  margin-left: 5vw;
-  top: 75vh;
+  color: white;
+  position: absolute;
+  bottom: 3vh; 
+  left: 5vw;
+  margin: 0;
 }
 
 .prototipagem {
@@ -139,5 +131,29 @@ section {
 
 .img-prototipagem img {
   height: 40vh;
+  margin: 0 10vh;
+}
+.edge-computing{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-edge h1{
+  max-width: 50vw;
+  border-radius: 0vw 1vw 1vw 0vw;
+  padding: 1vw 0 1vw 13vw;
+  font-size: 7vh;
+  color: white;
+  background-color: #E04444;
+}
+
+.text-edge p{
+  font-size: 3vh;
+  margin: 3vh 1vw;
+  max-width: 50vw;
+}
+
+.img-edge img {
+  height: 60vh;
   margin: 0 10vh;
 }
