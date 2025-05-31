@@ -72,13 +72,13 @@ section {
 }
 
 .texto-tecnologias h1 {
-  font-size: 7.7vh;
+  font-size: 4vw;
   line-height: 1.2;
   color: #1e1e1e;
 }
+
 .row-tech {
   display: flex;
-  flex-direction: column;
   width: 100%;
   height: 50vh;
   background-color: #E04444;
@@ -86,19 +86,16 @@ section {
 }
 
 .row-tech p {
-  font-size: 2.5vh;
+  font-size: 1.5vw;
   color: white;
   max-width: 50vw;
-  margin-top: 3vh;
 }
 
 .row-tech h1 {
-  font-size: 15vh;
-  color: white;
   position: absolute;
-  bottom: 3vh; 
-  left: 5vw;
-  margin: 0;
+  top: 78.5vh;
+  font-size: 7vw;
+  color: white;
 }
 
 .prototipagem {
