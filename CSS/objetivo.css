@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  html, body {
+    user-select: none;
+    font-size: 1rem; 
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 8vh;
+    width: 100%;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+  header img {
+    width: 22vh; 
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+  }
+
+  
+  nav a {
+    color: #1e1e1e;
+    text-decoration: none;
+    font-size: 2vh;
+  }
+
+  .objetivos ol {
+    padding: 2vw;
+  }
+  
+  nav a:hover {
+    color: #E04444;
+    transition: color 0.3s ease;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .principal {
+    margin-top: 10vh;
+    justify-content: space-between;
+    padding: 0 7vw 15vw;
+  }
+
+  .foto-principal {
+    display: flex;
+    height: 40vh;
+  }
+
+  .texto-principal {
+    display: flex;
+    flex-direction: column;
+    max-width: 45vw;
+  }
+
+  .texto-principal h1 {
+    font-size: 7.7vh;
+  }
+
+  .texto-principal p {
+    font-size: 2.5vh;
+    margin-top: 3vh;
+    color: #1e1e1e;
+  }
+
+  .texto-principal a {
+    display: flex;
+    font-size: 2.5vh;
+    font-weight: 500;
+    margin-top: 7vh;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 6vh;
+    background-color: #E04444;
+    border-radius: 2vh;
+    color: white;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.349);
+    transition: background 0.5s;
+  }
+
+  .texto-principal a:hover {
+    background-color: #fff;
+    color: #E04444;
+  }
+
+  .objetivos {
+    display: flex;
+    padding: 0 10vw;
+    font-size: 2.5vh;
+  }
+
+  .objetivos li {
+    border-radius: 2vh;
+    justify-items: center;
+    align-items: center;
+    list-style-type:decimal-leading-zero;
+    list-style-position: inside;
+  }
+
+  .objetivos li::marker {
+    font-size: 5vw;
+    }
+
+  .branco {
+    padding: 3vw 3vw 3vw 3vw;
+    margin: 3vh 0 3vh 30vw;
+    border: 2px solid #1e1e1e;
+  }
+
+  .branco::marker {
+    color: #E04444;      /* Só pra destacar */
+    }
+
+  .vermelho {
+    padding: 3vw 3vw 3vw 3vw;
+    background-color: #E04444;
+    color: white;
+    max-width: 50vw;
+  }
