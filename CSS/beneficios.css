@@ -111,9 +111,15 @@ nav a:hover {
   border-radius: 2vh;
   padding: 3vh 4vw;
   background-color: #fff;
-  box-shadow: 0 2px 8px rgba(160, 53, 53, 0.774);
+  box-shadow: 0 .25rem .625rem rgba(0,0,0,.05);
+  transition: transform .3s, box-shadow .3s;
   border-color: #E04444;
   color: #1e1e1e;
+}
+.card-1:hover,
+.card-2:hover {
+  transform: translateY(-.3rem);
+  box-shadow: 0 .5rem 1.25rem rgba(0,0,0,.1);
 }
 
 .card h3{
