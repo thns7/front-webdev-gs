@@ -16,7 +16,7 @@ html, body {
   width: 100vw;
   overflow: hidden;
   user-select: none;
-  font-size: 1rem; /* Base para rem */
+  font-size: 1rem;
 }
 
 body {
