@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  
+  user-select: none;
+  font-size: 1rem; 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vh 8vh;
+  width: 100%;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  width: 22vh;
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2vw;
+}
+
+nav a {
+  color: #1e1e1e;
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+nav a:hover {
+  color: #E04444;
+  transition: color 0.3s ease;
+}
+
+.beneficios img {
+  position: absolute;
+  right: 0;
+  top: 20vh;
+  height: 55vh;
+  pointer-events: none;
+  margin-right: 8vw;
+  
+}
+
+.beneficios{
+
+  margin-top: 12vh;
+  margin-left: 7vw;
+  color: #1e1e1e;
+}
+
+
+.beneficios h1 {
+  font-size: 7.7vh;
+  line-height: 1.2;
+  color: #1e1e1e;
+}
+
+.beneficios p {
+  max-width: 37vw;
+  font-size: 2.5vh;
+  margin-top: 3vh;
+  color: #1e1e1e;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5vh 5vw;
+  gap: 4vw; 
+  
+}
+
+.h1-card{
+    margin-top: 8vh;
+    margin-left: 7vw;
+    color: #1e1e1e;
+}
+
+
+
+.card-1, .card-2{
+  height: 40vh;
+  width: 50vw;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 3vh 4vw;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(160, 53, 53, 0.774);
+  border-color: #E04444;
+  color: #1e1e1e;
+}
+
+.card h3{
+    font-size: 1.3vw;
+}
+
+.card li{
+    font-size: 0.9vw;
+    padding: 0.5vh;
+}
+
+.card-1 img{
+   
+    height: 5vh;
+}
+
+.card-2 img{
+    height: 5vh;
+    padding: 1vh;
+}
