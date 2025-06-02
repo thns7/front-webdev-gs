@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", function () {
     currentIndex = (currentIndex + 1) % totalSlides;
   }
 
-  setInterval(mostrarSlide, 5000);
+  setInterval(mostrarSlide, 4000);
 });

@@ -82,6 +82,7 @@
 
   .texto-principal h1 {
     font-size: 7.7vh;
+    color: #1e1e1e;
   }
 
   .texto-principal p {
@@ -124,6 +125,7 @@
     align-items: center;
     list-style-type:decimal-leading-zero;
     list-style-position: inside;
+    
   }
 
   .objetivos li::marker {
@@ -134,10 +136,11 @@
     padding: 3vw 3vw 3vw 3vw;
     margin: 3vh 0 3vh 30vw;
     border: 0.3vh solid #1e1e1e;
+    color: #1e1e1e;
   }
 
   .branco::marker {
-    color: #E04444;      /* Só pra destacar */
+    color: #E04444;
     }
 
   .vermelho {

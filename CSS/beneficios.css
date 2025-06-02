@@ -96,9 +96,10 @@ nav a:hover {
 }
 
 .h1-card{
-    margin-top: 8vh;
-    margin-left: 7vw;
-    color: #1e1e1e;
+  font-size: 4vh;
+  margin-top: 8vh;
+  margin-left: 7vw;
+  color: #1e1e1e;
 }
 
 
@@ -106,8 +107,8 @@ nav a:hover {
 .card-1, .card-2{
   height: 40vh;
   width: 50vw;
-  border: 1px solid #ccc;
-  border-radius: 12px;
+  border: 0.2vh solid #ccc;
+  border-radius: 2vh;
   padding: 3vh 4vw;
   background-color: #fff;
   box-shadow: 0 2px 8px rgba(160, 53, 53, 0.774);
@@ -121,7 +122,6 @@ nav a:hover {
 
 .card li{
     font-size: 0.9vw;
-    padding: 0.5vh;
 }
 
 .card-1 img{
