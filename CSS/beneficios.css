@@ -21,6 +21,17 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+header{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease;
+  }
+
+.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 header {
   background: #fff;
   display: flex;
@@ -111,9 +122,15 @@ nav a:hover {
   border-radius: 2vh;
   padding: 3vh 4vw;
   background-color: #fff;
-  box-shadow: 0 2px 8px rgba(160, 53, 53, 0.774);
+  box-shadow: 0 .25rem .625rem rgba(0,0,0,.05);
+  transition: transform .3s, box-shadow .3s;
   border-color: #E04444;
   color: #1e1e1e;
+}
+.card-1:hover,
+.card-2:hover {
+  transform: translateY(-.3rem);
+  box-shadow: 0 .5rem 1.25rem rgba(0,0,0,.1);
 }
 
 .card h3{
@@ -132,4 +149,43 @@ nav a:hover {
 .card-2 img{
     height: 5vh;
     padding: 1vh;
+}
+
+.rodape {
+  background-color: #E04444;
+  color: white;
+  padding: 3vh 8vh;
+  width: 100%;
+  font-size: 2vh;
+  box-shadow: 0 -0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.rodape-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5vh;
+}
+
+.links-rodape {
+  list-style: none;
+  display: flex;
+  gap: 2vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.links-rodape a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.links-rodape a:hover {
+  color: #ffdada;
 }
