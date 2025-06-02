@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+
 const quizContainer = document.getElementById('quiz');
 
 const questions = [
@@ -186,7 +186,7 @@ function showResults() {
 
 
 
-  
+document.addEventListener("DOMContentLoaded", function () {
   const header = document.querySelector('header');
 
 
