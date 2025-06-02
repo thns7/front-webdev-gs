@@ -55,7 +55,7 @@ const questions = [
     question: "O que voce deve fazer para evitar enchentes?",
     options: [
       "jogar lixo na rua",
-      "Tampar os bueiros com cimento para nao entrar ratos",
+      "Tampar os bueiros com cimento para não entrar ratos",
       "Evitar jogar lixo na rua",
       "Lavar o carro todo dia"
     ],
