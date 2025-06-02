@@ -67,6 +67,7 @@ section {
 
 .texto-tecnologias{
   margin-top: 18.4vh;
+  height: 9.2vh;
   margin-left: 5vw;
   color: #1e1e1e;
 }
@@ -76,6 +77,7 @@ section {
   line-height: 1.2;
   color: #1e1e1e;
 }
+
 .row-tech {
   display: flex;
   flex-direction: column;
@@ -96,7 +98,7 @@ section {
   font-size: 15vh;
   color: white;
   position: absolute;
-  bottom: 3vh; 
+  top: 7.12cap;
   left: 5vw;
   margin: 0;
 }
