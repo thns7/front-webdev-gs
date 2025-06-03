@@ -203,7 +203,7 @@
 
 
 @media screen and (max-width: 760px){ 
-  header img {
+    header img {
     width: 35vw;
   }
   nav ul {
@@ -227,8 +227,8 @@
       overflow: hidden; 
       left: 0%;
       width: 100%;
-      top: 13.5vh;
-      display: none; /* trocar pra none*/
+      top: 11.8vh;
+      display: none; 
       z-index: 1;
   }
 

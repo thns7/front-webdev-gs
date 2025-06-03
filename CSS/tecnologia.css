@@ -218,7 +218,7 @@ section {
 }
 
 @media screen and (max-width: 760px){ 
-    header img {
+  header img {
     width: 35vw;
   }
   nav ul {
@@ -242,7 +242,7 @@ section {
       overflow: hidden; 
       left: 0%;
       width: 100%;
-      top: 13.5vh;
+      top: 11.8vh;
       display: none; 
       z-index: 1;
   }
