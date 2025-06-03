@@ -315,43 +315,5 @@
   nav a {
     font-size: 2.2vh;
   }
-}
 
-    header img {
-    width: 35vw;
-  }
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    border-bottom: 0.25vh solid #1e1e1e2f;
-    padding: 0vh 0vh 1vh 2vh;
-  }
-
-  .hamburguer {
-      color: #1e1e1e;
-      display: flex;
-  }
-
-  .links {
-      flex-direction: column;
-      position: absolute;
-      background-color: white;
-      overflow: hidden; 
-      left: 0%;
-      width: 100%;
-      top: 11.8vh;
-      display: none; 
-      z-index: 1;
-  }
-
-  .mostrar {
-      display: flex;
-  }
-
-  .mostrar2 {
-    box-shadow: none;
-  }
-  }
 
