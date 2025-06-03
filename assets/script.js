@@ -25,3 +25,15 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+const iconMenu = document.querySelector(".hamburguer")
+const menu = document.querySelector(".links")
+
+iconMenu.addEventListener("click", function() {
+    menu.classList.toggle("mostrar")
+})
+
+const menu2 = document.querySelector("header")
+iconMenu.addEventListener("click", function() {
+  menu2.classList.toggle("mostrar2")
+})
+
