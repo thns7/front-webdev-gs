@@ -234,6 +234,13 @@ nav a:hover {
 }
 
 @media screen and (max-width: 760px){ 
+
+  header {
+    z-index: 1;
+    background-color: white;
+    margin-bottom: 50vh;
+  }
+
   header img {
     width: 35vw;
   }
@@ -258,8 +265,8 @@ nav a:hover {
       overflow: hidden; 
       left: 0%;
       width: 100%;
-      top: 13.5vh;
-      display: none; /* trocar pra none*/
+      top: 11.8vh;
+      display: none;
       z-index: 1;
   }
 
@@ -269,5 +276,68 @@ nav a:hover {
 
   .mostrar2 {
     box-shadow: none;
+  }
+
+  .texto {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    text-align: center;
+  }
+
+  .texto h1 {
+    font-size: 5vh;
+  }
+
+  .texto p {
+    font-size: 2vh;
+    max-width: 100%;
+  }
+
+  .button-home {
+    width: 80vw;
+    height: 6.5vh;
+    margin: 10vh auto;
+  }
+
+  .extras {
+    display: flex;
+    background-color: none;
+    border-radius: 0% 0% 0% 100%;
+    justify-content: center;
+    top: 12vh;
+    right: 0;
+    width: 40vh;
+    height: 40vh;
+    z-index: -1;
+  }
+
+  .extras img {
+    position: absolute;
+    overflow:visible;
+    display: flex;
+    height: 50vh;
+    top: 5vh;
+    z-index: 0;
+  }
+
+  .rodape {
+    position: relative;
+    bottom: 0;
+    padding: 4vh 2vh;
+    font-size: 1.8vh;
+    text-align: center;
+  }
+
+  .rodape-conteudo {
+    gap: 2vh;
+  }
+
+  .links-rodape {
+    flex-direction: column;
+    gap: 1.5vh;
+  }
+
+  .links-rodape a {
+    font-size: 2vh;
   }
 }
