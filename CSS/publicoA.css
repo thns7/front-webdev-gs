@@ -39,6 +39,8 @@ header {
   padding: 4vh 8vh;
   width: 100%;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
 }
 
 header img {
@@ -183,6 +185,11 @@ nav a:hover {
   display: none;
 }
 
+.textos-publico {
+  width: 50%;
+  color: #1e1e1e;
+  padding: 2vh 2vw;
+}
 
 @media screen and (max-width: 760px){ 
     header img {
@@ -203,17 +210,16 @@ nav a:hover {
   }
 
   .links {
-      flex-direction: column;
-      position: absolute;
-      background-color: white;
-      overflow: hidden; 
-      left: 0%;
-      width: 100%;
-      top: 11.8vh;
-      display: none; 
-      z-index: 1;
-  }
-
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    overflow: hidden; 
+    left: 0;
+    width: 100%;
+    top: 11.8vh;
+    display: none; 
+    z-index: 9999;
+}
   .mostrar {
       display: flex;
   }
@@ -221,4 +227,64 @@ nav a:hover {
   .mostrar2 {
     box-shadow: none;
   }
+
+  .publico-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 5vw;
+  }
+
+  .textos-publico {
+  width: 100%;
+  text-align: center;
+  padding: 2vh 4vw;
+}
+
+
+  .textos-publico h1 {
+    font-size: 5.2vh;
+  }
+
+  .textos-publico h3 {
+    font-size: 2.5vh;
+  }
+
+  .textos-publico p {
+    font-size: 2.5vh;
+    margin-top: 2vh;
+  }
+
+  .textos-publico ul {
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 2vh;
+  }
+
+  .textos-publico ul li {
+    margin-bottom: 1.5vh;
+  }
+
+.slide-container {
+  width: 100%;
+  height: 35vh;
+  margin-top: 5vh;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 2vh;
+  display: block;
+}
+
+
+.onda-fundo {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 180vh;
+  z-index: -1;
+}
+
 }
