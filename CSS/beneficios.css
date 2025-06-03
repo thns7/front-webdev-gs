@@ -196,8 +196,7 @@ nav a:hover {
 }
 
 @media screen and (max-width: 760px){ 
-  
-    header img {
+  header img {
     width: 35vw;
   }
   nav ul {
@@ -206,13 +205,12 @@ nav a:hover {
 
   nav li {
     border-bottom: 0.25vh solid #1e1e1e2f;
-    padding-bottom: 1vh;
+    padding: 0vh 0vh 1vh 2vh;
   }
 
   .hamburguer {
       color: #1e1e1e;
       display: flex;
-     
   }
 
   .links {
@@ -222,8 +220,8 @@ nav a:hover {
       overflow: hidden; 
       left: 0%;
       width: 100%;
-      top: 13.5vh;
-      display: none;
+      top: 11.8vh;
+      display: none; 
       z-index: 1;
   }
 
