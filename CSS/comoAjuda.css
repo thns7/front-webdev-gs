@@ -34,11 +34,13 @@
   header {
     background: #fff;
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     padding: 4vh 8vh;
     width: 100%;
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    z-index: 10;
   }
   
   header img {
@@ -238,6 +240,95 @@
 
   .mostrar2 {
     box-shadow: none;
+  }
+
+  .principal {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+  }
+
+  .img-principal {
+    display: none;
+  }
+
+  .text-principal {
+    position: absolute;
+    max-width: 90%;
+    margin-top: 5vh;
+  }
+
+  .text-principal h1 {
+    font-size: 5vh;
+    z-index: -1;
+  }
+
+  .text-principal p {
+    font-size: 2.5vh;
+    max-width: 100%;
+    color: white;
+    text-shadow: 0 0 1vh #1e1e1e;
+    margin-top: 18vh;
+    z-index: 1;
+  }
+
+  .caixas {
+    background-color: #E04444;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30vh;
+    gap: 5vh;
+  }
+
+  .caixas h2 {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .caixas li {
+    font-size: 3.5vw;
+    text-align: left;
+  }
+
+  .box-1,
+  .box-2 {
+    width: 90%;
+    margin: 0;
+    height: auto;
+    padding: 2vh;
+  }
+
+  .seta {
+    margin: 0 auto;
+    gap: 1vh;
+  }
+
+  .seta img {
+    height: 6vh;
+    width: 6vh;
+  }
+
+  .rodape {
+    padding: 4vh 2vh;
+    font-size: 1.8vh;
+  }
+
+  .rodape-conteudo {
+    gap: 2vh;
+  }
+
+  .links-rodape {
+    flex-direction: column;
+    gap: 1.5vh;
+  }
+
+  .links-rodape a {
+    font-size: 2vh;
+  }
+
+  .hamburguer {
+    display: block;
   }
 }
 
