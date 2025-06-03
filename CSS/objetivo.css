@@ -206,9 +206,7 @@
   }
   
   @media screen and (max-width: 760px){ 
-    header img {
-      width: 35vw;
-    }
+    
     nav ul {
       flex-direction: column;
     }
@@ -231,7 +229,7 @@
         left: 0%;
         width: 100%;
         top: 13.5vh;
-        display: none; /* trocar pra none*/
+        display: none; 
         z-index: 1;
     }
   
@@ -242,4 +240,78 @@
     .mostrar2 {
       box-shadow: none;
     }
+  
+
+  section {
+    flex-direction: column;
+    padding: 5vw 5vw;
+    text-align: center;
   }
+
+  .principal {
+    padding: 0 5vw 10vw;
+    margin-top: 5vh;
+  }
+
+  .foto-principal {
+    justify-content: center;
+    height: auto;
+    margin-bottom: 5vh;
+  }
+
+  .foto-principal img {
+    width: 80%;
+    height: auto;
+  }
+
+  .texto-principal {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .texto-principal h1 {
+    font-size: 5vh;
+  }
+
+  .texto-principal p {
+    font-size: 2.2vh;
+    text-align: justify;
+  }
+
+  .texto-principal a {
+    width: 80%;
+    height: auto;
+    padding: 1.5vh;
+    font-size: 2.2vh;
+    margin-top: 5vh;
+  }
+
+  .objetivos {
+    padding: 0 5vw;
+    font-size: 2.2vh;
+  }
+
+  .objetivos li {
+    margin: 3vh 0;
+    padding: 5vw;
+    max-width: 100%;
+  }
+
+  .branco {
+    margin-left: 0;
+  }
+
+  .rodape-conteudo {
+    font-size: 2vh;
+    padding: 2vh;
+  }
+
+  .links-rodape {
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  nav a {
+    font-size: 2.2vh;
+  }
+}
