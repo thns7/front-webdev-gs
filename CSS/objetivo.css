@@ -213,10 +213,10 @@
       flex-direction: column;
     }
   
-    nav li {
-      border-bottom: 0.25vh solid #1e1e1e2f;
-      padding-bottom: 1vh;
-    }
+  nav li {
+    border-bottom: 0.25vh solid #1e1e1e2f;
+    padding: 0vh 0vh 1vh 2vh;
+  }
   
     .hamburguer {
         color: #1e1e1e;

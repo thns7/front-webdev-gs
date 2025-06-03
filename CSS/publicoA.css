@@ -192,9 +192,9 @@ nav a:hover {
     flex-direction: column;
   }
 
-  nav li {
+    nav li {
     border-bottom: 0.25vh solid #1e1e1e2f;
-    padding-bottom: 1vh;
+    padding: 0vh 0vh 1vh 2vh;
   }
 
   .hamburguer {
