@@ -196,7 +196,8 @@ nav a:hover {
 }
 
 @media screen and (max-width: 760px){ 
-  header img {
+  
+    header img {
     width: 35vw;
   }
   nav ul {
@@ -211,6 +212,7 @@ nav a:hover {
   .hamburguer {
       color: #1e1e1e;
       display: flex;
+     
   }
 
   .links {
@@ -221,7 +223,7 @@ nav a:hover {
       left: 0%;
       width: 100%;
       top: 13.5vh;
-      display: none; /* trocar pra none*/
+      display: none;
       z-index: 1;
   }
 
@@ -231,5 +233,74 @@ nav a:hover {
 
   .mostrar2 {
     box-shadow: none;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 1.5vh;
+    padding: 2vh 0;
+  }
+
+  .beneficios {
+    margin: 5vh 5vw;
+    text-align: center;
+  }
+
+  .beneficios img {
+    display: none; 
+  }
+
+  .beneficios h1 {
+    font-size: 5vh;
+  }
+
+  .beneficios p {
+    font-size: 2.2vh;
+    max-width: 100%;
+  }
+
+  .h1-card {
+    text-align: center;
+    font-size: 3.5vh;
+    margin: 5vh 0 2vh 0;
+  }
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh 5vw;
+  }
+
+  .card-1, .card-2 {
+    width: 90%;
+    height: auto;
+    margin-bottom: 4vh;
+    padding-left: 5vw;
+    padding: 3vh 4vw;
+
+  }
+
+  .card h3 {
+    font-size: 2.5vh;
+  }
+
+  .card li {
+   font-size: 2vh;
+   list-style-position: inside;
+   padding-left: 1vw;
+  }
+
+  .rodape-conteudo {
+    font-size: 2vh;
+    padding: 2vh;
+  }
+
+  .links-rodape {
+    flex-direction: column;
+    gap: 1vh;
+  }
+
+  nav a {
+    font-size: 2.2vh;
   }
 }
